@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://xub0pfyhnb1"]
+
+[ext_resource type="Script" path="res://polygon_button.gd" id="1_dyu12"]
+
+[node name="PolygonButton" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_dyu12")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-59, -25, -21, 26, -25, 100, 30, 38, 112, 37, 41, -9, 74, -75, 14, -36, -37, -88, -14, -35)
